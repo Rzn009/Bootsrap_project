@@ -13,27 +13,24 @@
 
     <!-- ===== Navbar  ==== -->
 
-
-    <nav class="navbar navbar-expand bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/boot-2.png" alt="loading" width="50"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand bg-light sticky-top ">
+        <div class="container-fluid ">
+            <a class="navbar-brand"
+                href="https://www.garuda-indonesia.com/id/id/corporate-partners/company-profile/about/index"><img
+                    src="img/boot-2.png" alt="loading" width="50">Garuda Arlines</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ">
+                <ul class="navbar navbar-nav ms-auto me-5">
                     <li class="nav-item">
-                        <a class="nav-link active me-auto " aria-current="page" href="#">Garuda Arilines</a>
+                        <a class="nav-link active  " aria-current="page" href="#about">About us</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link me-auto" href="#">Features</a>
+                        <a class="nav-link " href="#harga">Harga</a>
                     </li>
                     <li class="nav-item  ">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#">Berita</a>
                     </li>
                 </ul>
             </div>
@@ -42,25 +39,70 @@
 
     <!-- ===== Navbar End ==== -->
 
-<!-- === Banner === -->
-        <div class="container-fluid gx-0">
-            <div class="banner">
-                <div class="banner-content text-white">
-                    <h1>Vote Us
-                        To Be World’s Best Airline and World’s Best Cabin Crew</h1>
-                </div>
+    <!-- === Banner === -->
+    <div class="container-fluid gx-0">
+        <div class="banner">
+            <div class="banner-content text-white">
+                <h4>Vote UsTo Be World’s Best Airline and World’s Best Cabin Crew</h4>
             </div>
         </div>
+    </div>
     </div>
     <!-- === Banner === -->
 
     <!-- === About as === -->
-    <div class="container mt-3">
-        <h1 class="text-center text">About Us</h1>
+    <div id="about" class="container mt-5" style="width: 500vh;">
+        <div class="row align-items-center">
+            <h3 class="text-center">About Us</h3>
+            <div class="col-md-6 order-2">
+                <p class="ms-auto">Penerbangan sipil Indonesia tercipta pertama kali atas inisatif Angkatan Udara
+                    Republik Indonesia (AURI) dengan menyewakan pesawat yang dinamai “Indonesian Airways” kepada
+                    pemerintah
+                    Burma pada 26 Januari 1949. Peran “Indonesian Airways” pun berakhir setelah disepakatinya Konferensi
+                    Meja Bundar (KMB) pada 1949. Seluruh awak dan pesawatnya pun baru bisa kembali ke Indonesia pada
+                    1950.
+                    Setibanya di Indonesia, semua pesawat dan fungsinya dikembalikan kepada AURI ke dalam formasi Dinas
+                    Angkutan Udara Militer.</p>
+            </div>
+            <div class="col-md-6 order-1">
+                <img src="img/boot-4.webp" alt="Conenction is not connect"
+                    class="img-thumbnail d-block w-75 align-items-center">
+            </div>
+        </div>
     </div>
     <!-- === About as End=== -->
 
-<script src="js/bootstrap.bundle.min.js"></script>
+    <!-- === card === -->
+    <div class="container" id="harga">
+        <h2>Harga Spesial Ke Destinasi Favorit</h2>
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <img src="img/boot-6.webp" alt="no connection" class="w-100 rounded-2" style="height: 27vh;">
+            </div>
+            <div class="col-md-3 mb-3">
+                <img src="img/boot-7.jpeg" alt="no connection" class="w-100 rounded-2">
+            </div>
+            <div class="col-md-3 mb-3">
+                <img src="img/boot-8.jpeg" alt="no connection" class="w-100 rounded-2" style="height: 27vh;">
+            </div>
+            <div class="col-md-3 mb-3">
+                <img src="img/boot-9.jpeg" alt="no connection" class="w-100 rounded-2">
+            </div>
+        </div>
+    </div>
+
+    <!-- === Card End === -->
+
+    <!-- === Berita === -->
+
+    <div class="container" id="berita">
+        <h1 class="text-center">our news highlights</h1>
+    </div>
+
+    <!-- === Berita End=== -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
