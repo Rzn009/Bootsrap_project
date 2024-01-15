@@ -11,9 +11,6 @@
 }
 
 
-.container-fluid {
-    margin-bottom: 10px;
-}
 .banner {
     height: 100vh;
     border-radius: 5px;
@@ -41,18 +38,6 @@
 #harga 
 {
     margin-top: 10rem;
-}
-#berita 
-{
-    margin-top: 10rem;
-    background-image: linear-gradient(#ecf0f1), url(img/boot-11.webp);
-    height: 75vh;
-    border-radius: 5px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    margin-bottom: 10px
 }
 
 #card 
